@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Register";
+}
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #4B2E2E;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .register-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .register-card {
+        background: beige;
+        padding: 40px 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgb(202, 171, 0);
+        width: 520px;
+        height: 600px;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .register-card:hover {
+            transform: scale(1.05);
+        }
+
+        .register-card h2 {
+            color: #4B2E2E;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 45px;
+            font-weight: bold;
+           /* text-shadow: 2px 2px 5px rgb(202, 171, 0);*/
+        }
+
+        .register-card form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .register-card input {
+            width: 400px;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+
+            .register-card input:focus {
+                border: 1px solid #4B2E2E;
+                box-shadow: 0 0 8px gold;
+                outline: none;
+            }
+
+    .register-btn {
+        width: 100px;
+        padding: 12px;
+        margin-top: 20px;
+        background-color: #4B2E2E;
+        color: #F5F5DC;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 5px gold;
+    }
+
+        .register-btn:hover {
+            box-shadow: 0 0 15px 4px rgb(202, 171, 0);
+        }
+
+    .register-card .link {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+        .register-card .link a {
+            color: #4B2E2E;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .register-card .link a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<div class="register-container">
+    <div class="register-card">
+        <h2>Register</h2>
+        <form action="/Account/Register" method="post">
+            <input type="text" name="fullname" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+            <button type="submit" class="register-btn">Sign Up</button>
+        </form>
+        <div class="link">
+            Already have an account? <a href="/Account/Login">Login here</a>
+        </div>
+    </div>
+</div>

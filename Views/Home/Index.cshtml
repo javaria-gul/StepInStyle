@@ -1,0 +1,164 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+    }
+
+    /* ✅ Fixed Top Navbar, full-width */
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #4B2E2E; /* Dark Brown */
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar-left, .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-custom a {
+        color: #F5F5DC; /* Beige */
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .navbar-custom a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    /* ✅ Logo Styling - Animated Text */
+    .logo-text {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #F5F5DC;
+        margin-right: 25px;
+        letter-spacing: 1px;
+        text-shadow: 0 0 5px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.3);
+        animation: glow 2s infinite alternate;
+    }
+
+    @@keyframes glow {
+        from {
+            text-shadow: 0 0 5px #F5F5DC, 0 0 10px #F5F5DC;
+        }
+        to {
+            text-shadow: 0 0 10px #FFF8DC, 0 0 20px #D2B48C;
+        }
+    }
+
+    /* ✅ Login Button */
+    .login-button {
+        background-color: transparent;
+        border: 2px solid #F5F5DC;
+        color: #F5F5DC;
+        padding: 6px 14px;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    a.login-button:hover {
+        background-color: #F5F5DC !important;
+        color: #4B2E2E !important;
+        border-color: #4B2E2E;
+    }
+
+
+    /* ✅ Hero Section */
+    .main-wrapper {
+        padding-top: 70px; /* Pushes hero-section below the fixed navbar */
+    }
+
+    .hero-section {
+        background-image: url('/Content/Images/bg1.JPEG');
+        background-size: cover;
+        background-position: center;
+        height: 85vh;
+        padding-top: 200px;
+        margin: 2px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    }
+
+    .hero-title {
+        color: saddlebrown;
+        font-size: 4rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px white;
+    }
+
+    .hero-quote {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-style: italic;
+        max-width: 600px;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    @@media (max-width: 768px) {
+        .navbar-custom {
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+        }
+
+        .hero-quote {
+            font-size: 1rem;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+<!-- ✅ Navbar -->
+<div class="navbar-custom">
+    <div class="navbar-left">
+        <div class="logo-text">StepInStyle</div>
+        <a href="/">Home</a>
+        <a href="/Home/About">About</a>
+        <a href="/Home/Contact">Contact</a>
+        <a href="/Products/Browse">Shop</a>
+    </div>
+    <div class="navbar-right">
+        <a href="/Account/Login" class="login-button">Login / Register</a>
+    </div>
+</div>
+
+<!-- ✅ Hero Section -->
+<div class="main-wrapper">
+    <div class="hero-section">
+        <div class="hero-title">StepInStyle</div>
+        <div class="hero-quote">"Style is a way to say who you are without having to speak."</div>
+    </div>
+</div>
