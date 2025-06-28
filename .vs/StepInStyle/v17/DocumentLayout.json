@@ -3,24 +3,84 @@
   "WorkspaceRootPath": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|d:\\rr\\dbms_project\\stepinstyle\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|d:\\rr\\dbms_project\\stepinstyle\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|D:\\rr\\DBMS_PROJECT\\StepInStyle\\models\\stepinstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{391E541F-8D14-4A54-A1E0-AAA6BFEBC6C9}|StepInStyle.csproj|solutionrelative:models\\stepinstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,76 +106,256 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAiwOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:03:59.037Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T19:04:44.733Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T14:34:48.061Z",
+              "WhenOpened": "2025-05-31T12:28:14.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAiwI4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T18:00:34.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:37:42.479Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:08:27.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:52:20.894Z"
+              "WhenOpened": "2025-05-04T13:52:20.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T08:51:39.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:26:15.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAaGZmZmYEwCMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:05:32.717Z"
+              "WhenOpened": "2025-05-04T09:05:32.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADMAAAAAEzMzMzMLwEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-04T08:22:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD0AAAAAk5mZmZktwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T09:03:50.773Z"
+              "WhenOpened": "2025-05-04T14:37:42.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:24:26.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:02:24.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:16:22.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T04:37:17.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAG8AAAAA/f////8HwGoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T04:43:58.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGgAAACIYGZmZuYXwGwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T04:43:55.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T04:44:05.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T04:44:08.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
@@ -139,23 +367,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T08:51:39.977Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "DocumentIndex": 21,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:03:50.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -167,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -176,31 +400,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T11:16:37.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StepInStyleContext.cs",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\StepInStyleContext.cs",
-              "RelativeDocumentMoniker": "Models\\StepInStyleContext.cs",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Models\\StepInStyleContext.cs",
-              "RelativeToolTip": "Models\\StepInStyleContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:26:31.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "D:\\rr\\DBMS_PROJECT\\StepInStyle\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-04T08:22:29.947Z",
-              "EditorCaption": ""
             }
           ]
         },

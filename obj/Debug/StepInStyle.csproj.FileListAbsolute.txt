@@ -77,8 +77,6 @@ D:\rr\DBMS_PROJECT\StepInStyle\bin\Newtonsoft.Json.xml
 D:\rr\DBMS_PROJECT\StepInStyle\bin\Antlr3.Runtime.pdb
 D:\rr\DBMS_PROJECT\StepInStyle\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInStyle.csproj.AssemblyReference.cache
-D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInStyle.Migrations.InitialCreate.resources
-D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInStyle.csproj.GenerateResource.cache
 D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInStyle.csproj.CoreCompileInputs.cache
 D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInSt.E8CADF49.Up2Date
 D:\rr\DBMS_PROJECT\StepInStyle\obj\Debug\StepInStyle.dll

@@ -106,7 +106,9 @@
 <div class="register-container">
     <div class="register-card">
         <h2>Register</h2>
+
         <form action="/Account/Register" method="post">
+            @Html.AntiForgeryToken()
             <input type="text" name="fullname" placeholder="Full Name" required />
             <input type="email" name="email" placeholder="Email" required />
             <input type="password" name="password" placeholder="Password" required />

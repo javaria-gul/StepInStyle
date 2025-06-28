@@ -1,106 +1,105 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
-using StepInStyle.Models;  
+using StepInStyle.Models;
 
 namespace StepInStyle.Controllers
 {
     public class AccountController : Controller
     {
-        StepInStyleContext db = new StepInStyleContext();  // DbContext instance
+        private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Register
+        // GET: Register page
+        [HttpGet]
         public ActionResult Register()
         {
-            return View();  // Show registration form
+            return View();
         }
 
         // POST: Register
         [HttpPost]
-        public ActionResult Register(User user)
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(string fullname, string email, string password, string confirmPassword)
         {
-            try
+            if (password != confirmPassword)
             {
-                if (ModelState.IsValid)
-                {
-                    user.Role = "User";  // Default role for all new registrations
-                    db.Users.Add(user);
-                    db.SaveChanges();
-
-                    TempData["Success"] = "Registration successful. Please login.";
-                    return RedirectToAction("Login");
-                }
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Message = "Something went wrong during registration. Please try again.";
-                // Optionally log: ex.Message
+                ViewBag.Message = "Passwords do not match!";
+                return View();
             }
 
-            return View(user);  // Return form with any validation messages
+            // Check if email already exists
+            var existingUser = db.Users.FirstOrDefault(u => u.Email == email);
+            if (existingUser != null)
+            {
+                ViewBag.Message = "Email already registered.";
+                return View();
+            }
+
+            var user = new User
+            {
+                FullName = fullname,
+                Email = email,
+                Password = password,  
+                Role = "User"
+            };
+
+            db.Users.Add(user);
+            db.SaveChanges();
+
+            TempData["Success"] = "Registration successful. Please login.";
+            return RedirectToAction("Login");
         }
 
-        // GET: Login
+        // GET: Login page
+        [HttpGet]
         public ActionResult Login()
         {
-            return View();  // Show login form
+            return View();
         }
 
-        // POST: Login
+        
         [HttpPost]
-        public ActionResult Login(User user)
+        [ValidateAntiForgeryToken]
+        public ActionResult Login(string email, string password)
         {
-            try
+            var user = db.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+
+            if (user != null)
             {
-                if (string.IsNullOrWhiteSpace(user.Email) || string.IsNullOrWhiteSpace(user.Password))
-                {
-                    ViewBag.Message = "Email and Password are required.";
-                    return View();
-                }
-
-                var existingUser = db.Users.FirstOrDefault(u => u.Email == user.Email);
-
-                if (existingUser == null)
-                {
-                    ViewBag.Message = "No account found with this email.";
-                    return View();
-                }
-
-                if (existingUser.Password != user.Password)
-                {
-                    ViewBag.Message = "Incorrect password.";
-                    return View();
-                }
-
                 // Set session
-                Session["UserID"] = existingUser.UserId;
-                Session["UserName"] = existingUser.FullName;
-                Session["UserRole"] = existingUser.Role;
+                Session["UserId"] = user.UserId;
+                Session["UserName"] = user.FullName;
+                Session["UserRole"] = user.Role;
 
-                // Redirect to proper dashboard
-                if (existingUser.Role == "Admin")
+                // ✅ Check if user is Admin
+                if (Session["UserRole"] != null && Session["UserRole"].ToString() == "Admin")
                 {
                     return RedirectToAction("Dashboard", "Admin");
+                }
 
-                }
-                else
-                {
-                    return RedirectToAction("Dashboard", "User");
-                }
+                // Regular user
+                return RedirectToAction("Index", "Home");
             }
-            catch (Exception ex)
+            else
             {
-                ViewBag.Message = "An error occurred during login. Please try again.";
-                // Optionally log: ex.Message
+                ViewBag.Message = "Invalid email or password.";
+                return View();
+            }
+        }
+
+        public ActionResult Dashboard()
+        {
+            if (Session["UserRole"]?.ToString() != "Admin")
+            {
+                return RedirectToAction("Login", "Account");
             }
 
             return View();
         }
 
-        // GET: Logout
+        // Logout
         public ActionResult Logout()
         {
-            Session.Clear();  // Clear session data
+            Session.Clear();
             return RedirectToAction("Login");
         }
     }
